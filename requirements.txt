@@ -1,8 +1,8 @@
-pandas
 flask
-matplotlib
-seaborn
-scikit-learn
-streamlit
 numpy
-gunicorn
+pandas
+scikit-learn
+seaborn
+Gunicorn
+flask-cors
+pickle

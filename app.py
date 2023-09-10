@@ -1,8 +1,10 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import pickle
 import numpy as np
 
 app = Flask(__name__)
+CORS(app)
 model_name = "breast_logic.pkl"
 with open(model_name, 'rb') as file:
     model = pickle.load(file)
