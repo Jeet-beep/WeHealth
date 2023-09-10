@@ -3,6 +3,5 @@ numpy
 pandas
 scikit-learn
 seaborn
-Gunicorn
+gunicorn
 flask-cors
-pickle
