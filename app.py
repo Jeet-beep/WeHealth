@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 app = Flask(__name__)
-model_name = "breast_logic.pkl"
+model_name = "breast_cancer_logic.pkl"
 with open(model_name, 'rb') as file:
     model = pickle.load(file)
 
