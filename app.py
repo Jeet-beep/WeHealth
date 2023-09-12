@@ -4,12 +4,9 @@ import pickle
 import numpy as np
 
 app = Flask(__name__)
-<<<<<<< HEAD
-model_name = "breast_cancer_logic.pkl"
-=======
 CORS(app)
-model_name = "breast_logic.pkl"
->>>>>>> e9aba12fb3560784609f1d0b11676ea01c2c84f5
+model_name = "breast_cancer_logic.pkl"
+
 with open(model_name, 'rb') as file:
     model = pickle.load(file)
 
